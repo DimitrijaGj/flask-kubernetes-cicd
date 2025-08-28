@@ -9,5 +9,6 @@ terraform {
 }
 
 provider "proxmox" {
+    provider = var.pm_api_url
     
 }
