@@ -1,8 +1,8 @@
 terraform {
-    requiered_version = ">= 1.6.0"
-    requiered_providers {
-        proxmox {
-            source = "Telamate/proxmox"
+    required_version = ">= 1.6.0"
+    required_providers {
+        proxmox = {
+            source = "Telmate/proxmox"
             version = "3.0.1"
         }
     }

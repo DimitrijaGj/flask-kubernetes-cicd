@@ -33,11 +33,30 @@ variable "vm_name" {
     default = "k3s-master"
 }
 
-variable "vm_cores" { type = number, default = 2 }
-variable "vm_memory_mb" { type = number, default = 2048 }
-variable "vm_disk_size" { type = string, default = "20GB"}
-variable "vm_storage" { type = string, default = "local-lvm"}
-variable "vm_bridge" { type = string, default = "vmbr0"}
+variable "vm_cores" {
+    type = number
+    default = 2
+}
+
+variable "vm_memory_mb" { 
+    type = number 
+    default = 2048
+}
+    
+variable "vm_disk_size" { 
+    type = string 
+    default = "20GB"
+}
+
+variable "vm_storage" { 
+    type = string 
+    default = "local-lvm"
+}
+
+variable "vm_bridge" { 
+    type = string 
+    default = "vmbr0"
+}
 
 variable "ssh_public_key_path" {
     description = "Path to your public key"
