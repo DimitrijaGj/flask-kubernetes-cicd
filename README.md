@@ -1,4 +1,4 @@
-#Project for devops pipeline with IaC, CMT, K3S, Flask
+# Project for devops pipeline with IaC, CMT, K3S, Flask
 
 ![terrraform](https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white)
 ![proxmox](https://img.shields.io/badge/Proxmox-E57000?style=for-the-badge&logo=proxmox&logoColor=white)
@@ -6,5 +6,6 @@
 ![gitactions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
 ![flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
 
-##I Phase
-Adjusting terraform and proxmox
+## I Phase
+
+- Adjusting terraform and proxmox
